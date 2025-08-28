@@ -1,1 +1,37 @@
-
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Calculator  </title>
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <p></p>
+    <div id="buttons">
+      <button class="b0">0</button>
+      <button class="b1">1</button>
+      <button class="b2">2</button>
+      <button class="b3">3</button>
+      <button class="b4">4</button>
+      <button class="b5">5</button>
+      <button class="b6">6</button>
+      <button class="b7">7</button>
+      <button class="b8">8</button>
+      <button class="b9">9</button>
+      <button class="bp">+</button>
+      <button class="bm">-</button>
+      <button class="bn">*</button>
+      <button class="bd">/</button>
+      <button class="bE">=</button>
+      <button class="bC">&lt;</button>
+    </div>
+    <script>
+      const div = document.getElementById("buttons");
+      div.addEventListener("click",(e)=>{
+        e.preventDefault();
+        console.log(e.textContent);
+      });
+    </script>
+  </body>
+</html>
